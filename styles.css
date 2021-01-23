@@ -1,6 +1,7 @@
 :root {
     --primary-color: #A559A5;
     --background-color: white;
+    --offwhite-color:#D1D5DB; 
 }
 
 /** nav bar styling **/
@@ -14,6 +15,7 @@
     padding: 0.5rem 1rem;
     margin: auto;
     color: var(--background-color);
+    font-size: x-large;
 }
 
 .container {
@@ -33,4 +35,35 @@
     display: block;
     text-align: center;
     margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color:var(--primary-color)
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/** introduction **/
+.ow-intro .intro{
+    text-align: center;
+    padding: 1rem 25rem;
+    background-color: var(--offwhite-color);
+    display:block;
+    margin:auto;
+    max-width: 900px;
+    margin-inline-start: auto;
+} 
+
+/** tech known **/
+.tech{
+    text-align: center;
+    padding:1rem 25rem;
+}
+
+.no-bullet{
+    list-style: none;
 }
