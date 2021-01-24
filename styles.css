@@ -14,13 +14,13 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: auto;
-    color: var(--background-color);
+    color: black;
     font-size: x-large;
 }
 
 .container {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: black;
     text-align: right;
     font-weight: bolder;
     margin: auto;
@@ -47,23 +47,51 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
-/** introduction **/
-.ow-intro .intro{
-    text-align: center;
-    padding: 1rem 25rem;
+/** sections **/
+.section h2{
+    text-align: center ;
+    /* padding: 1rem; */
+    
+}
+.section{
+    padding:1rem;
     background-color: var(--offwhite-color);
-    display:block;
+}
+
+.container-center{
+    max-width:600px;
     margin:auto;
-    max-width: 900px;
-    margin-inline-start: auto;
-} 
+}
 
-/** tech known **/
-.tech{
+.section-one h2{
     text-align: center;
-    padding:1rem 25rem;
+    padding:1rem;
 }
 
-.no-bullet{
-    list-style: none;
+.non-bullet{
+    list-style-type:none;
+    display: inline;
+    padding: 1rem 2rem;
 }
+
+.non-bullet .link{
+    text-decoration: none; 
+    color:black;
+}
+
+.footer-last {
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 1rem;
+    padding: 1rem 0.25rem;
+    margin:auto;
+    text-align: center;
+    }
+.footer-last h3{
+    text-align: center;
+}
+.link{
+    font-weight: bold;
+    }
+
+
+
