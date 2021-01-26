@@ -77,6 +77,7 @@ body{
 .non-bullet .link{
     text-decoration: none; 
     color:black;
+    
 }
 
 .footer-last {
@@ -89,9 +90,8 @@ body{
 .footer-last h3{
     text-align: center;
 }
-.link{
-    font-weight: bold;
-    }
 
-
+ .footer-last ul{
+    padding-inline-start: 0px;;
+} 
 
