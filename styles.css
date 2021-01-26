@@ -58,6 +58,11 @@ body{
     background-color: var(--offwhite-color);
 }
 
+.section-white{
+    padding:1rem;
+    background-color: var(--background-color);
+}
+
 .container-center{
     max-width:600px;
     margin:auto;
